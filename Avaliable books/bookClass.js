@@ -45,7 +45,7 @@ function somethingsWrong(item) { //sender info omkring at bogen/item er i minus 
     alert(timeOfIncident);
     console.log(`"${item.title}, ${timeOfIncident}"SEND ITEM TO FILE`); //send information plus date til file.
 }
-function checkChoice() {//skal tjekke navbar choice og 
+function checkChoice() {//skal tjekke navbar choice så sellItem() kan samle den op
     let choice = navbarchoice;
     return navbarchoice;
 }
